@@ -1,0 +1,74 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+container {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 0 120px;
+}
+.header-wrapper {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+  gap: 30px;
+}
+
+.header-right a {
+  color: black;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 32px;
+  text-shadow: 0 5px 5px #371aab99;
+}
+
+/* HERO STYLES  */
+
+.hero {
+  margin-top: 60px;
+}
+
+.hero-wrapper {
+  gap: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-right {
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.a {
+  box-shadow: 0px 8px 24px 0px #2fc63c;
+}
+
+.h {
+  box-shadow: 0px 7px 29px 0px #64646f33;
+}
+.d {
+  box-shadow: 1.95px 1.95px 2.6px 0px #00000026;
+}
+.e {
+  box-shadow: 0px 5px 15px 0px #00000059;
+}
+.m {
+  box-shadow: 0px 3px 8px 0px #ff0000;
+}
+.n {
+  box-shadow: 0px 8px 24px 0px #007ffdeb;
+}
+.o {
+  box-shadow: 0px 7px 36px 0px #64646fa8;
+}
+.p {
+  box-shadow: 1.95px 1.95px 2.6px 0px #00000026;
+}
